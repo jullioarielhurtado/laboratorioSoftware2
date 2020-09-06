@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.unicauca.numerocomplejo.ComplejoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE! - in co.edu.unicauca.numerocomplejo.ComplejoTest
+pruebaStringComplejos  Time elapsed: 0.01 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <21.0+12.3i> but was: <20.0+12.3i>
+	at co.edu.unicauca.numerocomplejo.ComplejoTest.pruebaStringComplejos(ComplejoTest.java:55)
+

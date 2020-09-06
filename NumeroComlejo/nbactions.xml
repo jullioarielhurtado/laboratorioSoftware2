@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>test</actionName>
+            <packagings>
+                <packaging>*</packaging>
+            </packagings>
+            <goals>
+                <goal>test-compile</goal>
+                <goal>surefire:test</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>test-compile</activatedProfile>
+                <activatedProfile>surefire:test</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
